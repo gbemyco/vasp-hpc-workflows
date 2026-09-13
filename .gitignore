@@ -1,0 +1,13 @@
+POTCAR
+WAVECAR
+CHGCAR
+CHG
+vasprun.xml
+OUTCAR
+PROCAR
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+runs/
+results.csv
