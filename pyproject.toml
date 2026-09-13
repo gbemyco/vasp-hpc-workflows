@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vasp-hpc-workflows"
+version = "0.1.0"
+description = "Portable staged VASP workflows for PBS Pro and SLURM clusters"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Gbemi Abass"}]
+
+[project.scripts]
+vaspflow = "vaspflow.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vaspflow*"]
